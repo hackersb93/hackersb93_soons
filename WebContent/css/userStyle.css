@@ -1,0 +1,1170 @@
+/* user :default */
+
+html, body{
+    margin:0 auto;
+    width:100%;
+}
+.class{
+    clear: both;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    color:inherit;
+    text-decoration: none;    
+}
+/* header */
+/* ========= start header =========== */
+/* ========= start header =========== */
+#header_wrap{
+    width:100%;
+    height:100px;
+    background-color: #333333;
+
+    color: #ffffff;
+    font-family: 'Gaegu', bold;
+    font-size:3.0em;
+    text-align: center;
+    line-height:100px;
+}
+
+
+#gnb_wrap{
+    width:100%;
+    height:50px;
+    background-color: #444444;
+}
+
+#notitle{
+    position: relative;
+    top:-50px;
+    /* text-align: center; */
+}
+/* ========= end header =========== */
+/* ========= end header =========== */
+
+
+/* layout */
+/* ==================start layout======================= */
+/* ==================start layout======================= */
+
+/* line control */
+.line{
+    width:100%;
+    height:10px;
+    /* background-color: white; */
+    background-color: whitesmoke;
+}
+
+#main_wrap{
+    width:100%;
+    height:300px;
+    background-color: #eeeeee;
+}
+
+
+#section_01_wrap{
+    width:100%;
+    height:500px;
+    /* background-color: red; */
+    background-color: #faf0eb;
+}
+#section_02_wrap{
+    width:100%;
+    height:550px;
+    background-color: #eeeeee;
+}
+#section_03_wrap{
+    width:100%;
+    height:800px;
+    background-color: #faf0eb;
+}
+#section_04_wrap{
+    width:100%;
+    height:800px;
+    background-color: #eeeeee;
+}
+
+#section_05_wrap{
+    width:100%;
+    height:500px;
+    background-color: #faf0eb;
+}
+
+#footer_wrap{
+    width:100%;
+    height:100px;
+    background-color: #222;
+}
+/* ==================end layout======================= */
+/* ==================end layout======================= */
+
+
+/* intro */
+/* ==================start intro======================= */
+/* ==================start intro======================= */
+#main{
+    text-align: center;
+}
+#main_title{
+    padding-top: 60px;
+    font-size:32px;
+}
+#sub_title{
+    padding-top:30px;
+    font-size:24px;
+}
+
+/* #main_ul_wrap{
+    width:520px;
+    margin: 0 auto;
+}
+
+#main ul li{
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    margin-left:30px;
+    float:left;
+} */
+#main_photo{
+    position: relative;
+    top:0px;
+    /* box-sizing: border-box; */
+    /* border:1px solid black; */
+    left:10px;
+}
+/* ==================end intro======================= */
+/* ==================end intro======================= */
+
+
+/* gnb */
+/* ==================start gnb Style ======================= */
+/* ==================start gnb Style ======================= */
+#ul_wrap{
+    display: block;
+    width:910PX;
+    margin:0 auto;
+    /* border: 1px solid red; */
+    box-sizing: border-box;   
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+#gnb ul li{
+    color: #ffffff;
+    width: 130px;
+    height: 50px;
+    display: block;
+    float:left;
+    text-align: center;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+}
+#gnb ul li:nth-child(1), #gnb ul li:nth-child(2), #gnb ul li:nth-child(3), #gnb ul li:nth-child(7){
+    line-height: 50px;
+}
+#gnb ul li:nth-child(5), #gnb ul li:nth-child(6){
+    /* line-height:20px; */
+    margin-top:10px;
+}
+
+#ul_wrap ul li a:link{text-decoration:none;color:#ffffff; }
+#ul_wrap ul li a:hover{color:#a8a8a8;}
+#ul_wrap ul li a:visited{color:#ffffff;}
+#ul_wrap ul li a:active{color:#a8a8a8;}
+/* ==================end gnb Style ======================= */
+/* ==================end gnb Style ======================= */
+
+
+
+/* portfolio */
+/* ==================start section01 Style ======================= */
+/* ==================start section01 Style ======================= */
+/* ==================start section01 profile layout ======================= */
+/* ==================start section01 profile layout ======================= */
+
+#section_01_wrap{
+    margin: 0px;
+    padding: 0px;
+}
+#section_01{
+    overflow: hidden;
+    width:1150px;
+    margin:0 auto;
+}
+.profile{
+    margin-left:100px;
+    position: relative;
+    top:75px;
+    display: block;
+    /* border: 1px solid green; */
+    width: 400px;
+    box-sizing: border-box;
+    float:left;
+}
+.skill{
+    margin-left: 50px;
+    position: relative;
+    top:75px;
+    display: block;
+    /* border: 1px solid red; */
+    width: 550px;
+    height: 470px;
+    box-sizing: border-box;
+    float:left;   
+}
+.skill ul li ul{
+    width:200px;
+    height: 40px;
+}
+.skill_title{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float:left;
+    /* border:1px solid red; */
+    box-sizing: border-box;
+}
+.skill_value{
+    display: block;
+    width: 550px;
+    height:40px; 
+    line-height:40px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    margin-bottom:10px;
+}
+/* ==================end section01 profile layout ======================= */
+/* ==================end section01 profile layout ======================= */
+
+
+
+
+/* ==================start section01 profile detail ======================= */
+/* ==================start section01 profile detail ======================= */
+.profile h1{
+    color: #111111;
+    font-size: 1.5em;
+    font-family: "arial";
+    font-weight: bold;
+}
+.skill h1{
+    color: #111111;
+    font-size: 1.5em;
+    font-family: "arial";
+    font-weight: bold;
+}
+
+.profile ul li{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 350px;
+    height: 40px;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    line-height:40px;
+}
+.profile_name, .profile_birth, .profile_mobile, .profile_mail, .profile_address{
+    font-size:1.1em;
+    font-family: "명조", "arial";
+    /* font-weight: bold; */
+}
+.skill ul li{
+    font-size:1.1em;
+    font-family: "명조", "arial";
+
+}
+
+.profile_detail{
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+    /* color: red; */
+    /* top: 450px; */
+}
+
+.profile_detail_a:link{text-decoration:none;color:#167ccd; font-weight: bold;}
+.profile_detail_a:hover{color:orange;}
+.profile_detail_a:visited{color:#167ccd;}
+.profile_detail_a:active{color:orange;}
+
+
+/* ==================end section01 profile detail ======================= */
+/* ==================end section01 profile detail ======================= */
+/* ==================end section01 Style ======================= */
+/* ==================end section01 Style ======================= */
+
+
+/* ==================start section02 Style ======================= */
+/* ==================start section02 Style ======================= */
+
+#section_02_wrap{
+    overflow: hidden;
+    /* margin: 0 auto; */
+}
+#section_02_wrap h1{
+    width:300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color:#222;
+
+    font-size:1.4em;
+    margin-top:20px;
+}
+#section_2{
+    margin-top:-20px;
+}
+#portfolio_area{
+    width: 1240px;
+    height: 500px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+
+}
+#portfolio_area i{
+    font-size: 50px;
+    color: skyblue
+}
+#portfolio_area i:nth-child(1){
+    position: relative;
+    top:200px;
+    left:10px;
+    float:left;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+#portfolio_area i:nth-child(2){
+    /* border:1px solid black; */
+    position: relative; 
+    top:200px;
+    overflow: hidden;
+    float:right;
+    right:10px;
+    /* right:100px;
+    left:1240px;
+    border: 1px solid black;
+    
+    float:right;  */
+}
+
+
+
+
+#portfolio_detail{
+    width:400px;
+    height: 400px;
+    /* box-sizing: border-box;
+    border: 1px solid green; */
+    /* overflow: hidden; */
+    float:left;
+    margin-top:50px;
+}
+
+.portfolio_detail_title {
+    width:100px;
+    height:75px;
+    /* box-sizing: border-box;
+    border: 3px solid purple; */
+
+    /* line-height: 75px; */
+
+    
+    text-align: left;
+    font-size:0.8em;
+    font-weight: bold;
+    
+    
+    float:left;
+    
+
+}
+.portfolio_detail_infor{
+    width:300px;
+    height:75px;
+    /* box-sizing: border-box;
+    border: 1px solid red; */
+    font-size:1em;
+    font-weight: bold;
+    color: #444444;
+}
+
+
+#portfolio_detail_wrap{
+    width:1020px;
+    height:400px;
+    margin:0 auto;
+    /* border:3px dotted brown; */
+    margin-top:50px;
+}
+
+
+#portfolio_img01{
+    float:left;
+    margin-right:10px;
+    /* border:1px solid red; */
+}
+#portfolio_img02{
+    float:left;
+    margin-bottom:18px;
+    /* border: 1px solid red; */
+}
+#portfolio_img03{
+    float:left;
+    /* border: 1px solid red; */
+}
+
+
+
+/* ==================end section02 Style ======================= */
+/* ==================end section02 Style ======================= */
+
+
+
+/* photo */
+/* ==================start section03 Style ======================= */
+/* ==================start section03 Style ======================= */
+#section_03_wrap{
+    overflow: hidden;
+
+}
+#photoshop_area{
+    width:1240px;
+    height:800px;
+    /* width:800px;
+    height:600px; */
+    /* box-sizing: border-box; */
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+
+    background: red;
+}
+
+
+
+#photoshop_area i{
+    font-size: 50px;
+    color: skyblue;
+}
+#photoshop_area i:nth-child(1){
+    position: relative;
+    top:200px;
+    left:10px;
+    float:left;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+#photoshop_area i:nth-child(2){
+    /* border:1px solid black; */
+    position: relative; 
+    top:200px;
+    overflow: hidden;
+    float:right;
+    right:10px;
+    /* right:100px;
+    left:1240px;
+    border: 1px solid black;
+    
+    float:right;  */
+}
+
+/* #img01 img{
+    width:20%;
+    height:20%;
+    float: left;
+}
+#img02 img{
+    width:20%;
+    height:20%;
+    float:left;
+} */
+/* --------------------------------------- */
+#pho_img_wrap, #pho_img_wrap02{
+    width:923px;
+    height:450px;
+    /* box-sizing: border-box; */
+    /* border:1px solid red; */
+
+    
+    margin:0 auto;
+    margin-top:25px;
+}
+
+
+#photoshop_img01 img, #photoshop_img05 img{
+    /* padding-left: 100px; */
+    float: left;
+    
+}
+#photoshop_img02 img, #photoshop_img06 img{
+    float: left;
+    margin-left:10px;
+} 
+/* #img03 img{
+    /* float: left; */
+/* } */
+#photoshop_img03 img, #photoshop_img07 img{
+    margin-left:10px;
+    margin-bottom:50px;
+}
+#photoshop_img04 img, #photoshop_img08 img{
+    /* float: left; */
+    margin-left:10px;
+
+} 
+
+
+
+/* ==================end section03 Style ======================= */
+/* ==================end section03 Style ======================= */
+
+
+
+
+
+/* ill */
+/* ==================start section04 Style ======================= */
+/* ==================start section04 Style ======================= */
+#section_04_wrap{
+    height: 800px;
+    overflow: hidden;
+
+}
+#illustrator_area{
+    width:1240px;
+    height:800px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+}
+
+
+
+#illustrator_area i{
+    font-size: 50px;
+    color: skyblue;
+    
+}
+#illustrator_area i:nth-child(1){
+    position: relative; 
+    /* border:1px solid black;    */
+    top:200px;
+    left:10px;
+    overflow: hidden;
+    float:left;
+
+}
+
+#illustrator_area i:nth-child(2){
+    position: relative; 
+    /* border:1px solid black;    */
+    top:200px;
+    right:10px;
+    overflow: hidden;
+    float:right;
+}
+
+/* #img01 img{
+    width:20%;
+    height:20%;
+    float: left;
+}
+#img02 img{
+    width:20%;
+    height:20%;
+    float:left;
+} */
+
+#ill_img_wrap{
+    width:923px;
+    height:450px;
+    /* box-sizing: border-box; */
+    /* border:1px solid red; */
+
+    
+    margin:0 auto;
+    margin-top:25px;
+}
+
+
+#illustrator_img01 img{
+    /* padding-left: 100px; */
+    float: left;
+    
+}
+#illustrator_img02 img{
+    float: left;
+    margin-left:10px;
+} 
+/* #img03 img{
+    /* float: left; */
+/* } */
+#illustrator_img03 img{
+    margin-left:10px;
+    margin-bottom:50px;
+}
+#illustrator_img04 img{
+    /* float: left; */
+    margin-left:10px;
+
+} 
+
+
+/* ==================end section04 Style ======================= */
+/* ==================end section04 Style ======================= */
+
+
+/* contact */
+/* ==================start section05 Style ======================= */
+/* ==================start section05 Style ======================= */
+#section_05_wrap{
+    margin:0px;
+    padding: 0px;
+}
+#section_05_wrap{
+    overflow: hidden;
+
+}
+#contact_area{
+    width:1240px;
+    height:500px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+}
+
+#sns_icon{
+    width:1002px;
+    height:180px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid green; */
+    margin:0 auto;
+
+    text-align: center;
+ 
+    margin-top:20px;
+    /* text-align: center; */
+}
+
+
+#sns_icon img:hover{
+    opacity: .7;
+}
+
+#sns_icon ul li ul li:hover{
+    opacity: .7;
+}
+#contact_area ul li ul{
+    overflow: hidden;
+    float:left;
+    
+    width:200px;
+    height:180px;
+    box-sizing: border-box;
+
+    /* border:1px solid red; */
+}
+#contact_area ul li ul li{
+    padding-top:10px;
+}
+
+
+/* end contact_sns */
+
+
+
+#contact_detail_wrap{
+    width:400px;
+    height:250px;
+    /* box-sizing: border-box; */
+    /* border: 2px solid black; */
+
+    font-size:1.5em;
+    line-height: 100px;
+    
+    
+} 
+
+
+#contact_email{
+    width:400px;
+    height:100px;
+    /* box-sizing: border-box; */
+    /* border: 2px solid green; */
+   
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+#contact_mobile{
+    width:400px;
+    height:100px;
+  
+    /* box-sizing: border-box; */
+    /* border: 2px solid red; */
+}
+
+#contact_email ul li:nth-child(2), #contact_mobile ul li:nth-child(2){
+    margin-left:20px;
+}
+
+#contact_message{
+    width:250px;
+    height:250px;
+
+    /* box-sizing: border-box; */
+    /* border: 2px solid blue; */
+}
+
+/* -------------------------------- */
+
+#contact_email ul{
+    overflow: hidden;
+}
+#contact_email ul li{
+    float:left;
+}
+
+#contact_mobile ul{
+    overflow: hidden;
+}
+#contact_mobile ul li{
+    float:left;
+}
+
+
+#contact_detail_wrap{
+    overflow: hidden;
+    float:left;
+}
+
+#contact_message{
+
+    float:left;
+}
+
+
+#contact_message ul li span{
+    display: inline-block;
+    width:75px;
+    /* height:20px; */
+    
+}
+
+#contact_message ul li:nth-child(2){
+    margin-top:10px;
+}
+#contact_message ul li:nth-child(2) span{
+
+    vertical-align: top;
+    /* margin-top:10px; */
+}
+#contact_message ul li:nth-child(3){
+    margin-top:5px;
+    text-align: center;
+}
+
+#contact_area_detail_wrap{
+    width:652px;
+    height:267px;
+    margin:0 auto;
+    /* box-sizing: border-box; */
+    /* border: 1px dashed orange; */
+
+    /* font-size:3em; */
+}
+
+.db_text{
+    text-align: right;
+    font-size:0.6em;
+}
+
+#contact_area_detail_wrap i{
+    font-size:1.2em;
+    margin-left:5px; 
+    line-height:100px;
+    color:#222222;
+}
+
+/* ==================end section05 Style ======================= */
+/* ==================end section05 Style ======================= */
+
+
+
+/*footer*/
+/* ==================start footer Style ======================= */
+/* ==================start footer Style ======================= */
+
+#footer{
+    clear: both;
+    color: #ffffff;
+    font-size: 0.6em;
+
+    width:1240px;
+    height:100px;
+    /* box-sizing: border-box; */
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+}
+
+#footer_wrap{
+    overflow: hidden;
+
+}
+/* #footer01 ul:nth-child(1) li{
+    margin:0px;
+    padding: 0px;
+    line-height: 0;
+} */
+
+
+
+
+.end{
+    text-align: left;
+    margin-left:10px;
+    margin-bottom:2px;
+}
+
+/* ==================end footer Style ======================= */
+/* ==================end footer Style ======================= */
+ 
+/* 왜..안될까...전체 선 지우는게..*/
+/* #footer_wrap *{
+    border: none;
+}
+#section_05_wrap *, #section_05_wrap ul{
+    border: none;
+}  */
+
+/* 2018.07.25 기본스타일 끝 */
+
+
+/* 2018.07.25 lnb 스타일 추가 */
+#lnb_wrap{
+    /* position: absolute; */
+    position: fixed;
+    width:10px;
+    height:150px;
+    /* border:1px solid red; */
+
+    top:300px;
+    left:1700px;
+}
+
+#ul_wrap i{
+    color:black;
+    width:10px;
+    height:10px;
+    font-size: 0.8em;
+}
+/* ====================================================================================== */
+/* ====================================================================================== */
+
+
+
+
+
+/* 180810 푸터수정*/
+
+.footer_text{
+    float:left;
+    width:300px;
+    height:30px;
+    /* background-color: #a8a8a8; */
+    margin-top:45px;
+    margin-right: 500px;
+}
+#footer_detail_wrap{
+    margin-top:10px;
+    margin-bottom:10px;
+    width:100%;
+    height:80px;
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+    color:#ffffff;
+
+    /* float:left; */
+
+   
+}
+.footer_main_menu{
+    margin-top:5px;
+    /* margin-bottom:30px; */
+
+
+}
+
+.footer_main_menu>li{
+    float:left;
+    width:100px;
+    height:20px;
+    text-align: center;
+    font-size:1.1em;
+    /* background-color: #ccc; */
+    padding:3px 0 ;
+    margin-left:20px;
+    /* float:left; */
+}
+.footer_main_menu>li:hover{
+    background-color: rgba(255,255,255,.7);
+    color:black;
+}
+.footer_main_menu>li:nth-child(1)
+{
+    
+}
+.footer_sub_menu{
+    color:#fff;
+    margin-top:7px;
+    text-align: right;
+    /* background-color: red; */
+    display: none;
+}
+
+.footer_sub_menu>li:hover{
+    background-color:rgba(192, 177, 177, 0.8);
+    color:#111;
+}
+
+
+.footer_sub_menu>li{
+    padding:3px 0;
+}
+
+
+#section_03_wrap>p{
+    width:300px;
+    height:70px;
+
+    line-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top:20px;
+    margin-bottom:20px;
+    color:#111;
+
+    font-size:1.4em;
+    /* background-color: #111111; */
+}
+
+#section_04_wrap>p{
+    width:300px;
+    height:70px;
+
+    line-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-top:30px;
+    color:#111;
+
+    font-size:1.4em;
+    /* background-color: #111111; */
+}
+
+/* .footer_main_menu>li:nth-child(1),.footer_main_menu>li:nth-child(2),.footer_main_menu>li:nth-child(3){
+    border-bottom: dashed 1px red;
+} */
+
+
+
+/* 이미지 호버 추가 */
+
+
+/* #photoshop_img01{
+    width: 400px;
+    height:auto;
+    background-color: orange;
+}
+#photoshop_img01 img{
+    width:400px;
+    height:auto;    
+}
+
+#photoshop_img01 img:hover{
+    opacity: .5;
+}
+#photoshop_img01 h1{
+    display: block;
+    width:100px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: red;
+    top:50%;
+    z-index: 50;
+}
+
+#photoshop_img02 img{
+    width:400px;
+    height: auto;
+}
+
+
+#sns_icon img:hover{
+    opacity: .5;
+} */
+/* #sns_icon ul li ul li:hover{
+    opacity: .5;
+} */
+
+
+
+/* 180821 slick 스타일 추가 */
+.center div h1{
+    padding:10px;
+    text-align: center;
+}
+
+
+/* .center div img{
+    width:10%;
+    height: auto;
+} */
+
+.illslide div img{
+    line-height: auto;
+    vertical-align: center;
+    /* margin-top:30px; */
+}
+.ill_short{
+    /* height:50%; */
+}
+
+.ill-align{
+    /* vertical-align: center; */
+    margin-top:40%;
+    position: relative;
+    /* top:40%; */
+}
+
+
+.pho-modify{
+    width:50px;
+    height: auto;
+}
+
+.ill-align01{
+    position: relative;
+    margin-top:30%;
+
+    /* margin-top:-30%; */
+}
+
+
+/* 180821 detail 추가 */
+
+.pho_detail{
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+    /* color: red; */
+
+    margin-top:50px;
+    /* top: 450px; */
+}
+
+
+.phoslide{
+    /* background-color: #ccc; */
+}
+
+.pho_detail_a:link{text-decoration:none;color:#167ccd; font-weight: bold;}
+.pho_detail_a:hover{color:orange;}
+.pho_detail_a:visited{color:#167ccd;}
+.pho_detail_a:active{color:orange;}
+
+.ill_detail{
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+    /* color: red; */
+
+    margin-top:50px;
+    /* top: 450px; */
+}
+
+.ill_detail_a:link{text-decoration:none;color:#167ccd; font-weight: bold;}
+.ill_detail_a:hover{color:orange;}
+.ill_detail_a:visited{color:#167ccd;}
+.ill_detail_a:active{color:orange;}
+
+
+.port_detail{
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+    /* color: red; */
+
+    margin-top:30px;
+    /* top: 450px; */
+}
+
+.port_detail_a:link{text-decoration:none;color:#167ccd; font-weight: bold;}
+.port_detail_a:hover{color:orange;}
+.port_detail_a:visited{color:#167ccd;}
+.port_detail_a:active{color:orange;}
+
+/* 프로필팝업 081821 */
+
+.pop_wrap{
+    display: none;
+    z-index: 999;
+    position: fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color: rgba(1,1,1,0.8);    
+}
+.popbg{
+    width:1200px;
+    height:850px;
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin-left:-600px;
+    margin-top:-400px;
+
+    text-align: center;
+
+}
+.pop{
+    margin-bottom:5px;
+}
+
+.close{
+    background-color: #fff;
+    color:#222;
+
+    font-weight: bold;
+    font-size:1.2em;
+
+    width:80px;
+    height:40px;
+
+    line-height: 40px;
+    text-align: center;
+
+    border-radius: 15px;
+
+    margin:0 auto;
+    
+    cursor: pointer;
+}
+
+.center div img {
+    width:800px;
+    height:auto;
+}
