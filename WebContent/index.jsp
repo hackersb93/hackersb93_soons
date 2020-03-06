@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    
 
-    
      <!-- web font link start -->
      <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+     
+     
      <!-- Gnb-font -->
      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
      <!-- web font link end -->
+ 
  
      <!-- web icon link start -->
      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -36,7 +37,7 @@
     <!-- bx slide  -->
 
 
-    <!-- start style -->
+    <!-- start CSS style -->
     <!-- start style reset all -->
     <link rel="stylesheet" type="text/css" href=css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -51,29 +52,19 @@
     <!-- // Add the new slick-theme.css if you want the default styling -->
     <!-- end style -->
 
+
+	<!--  start JAVASCRIPT -->
     <!-- <script src="js/test.js" type="text/javascript" ></script> -->
     <!-- <script src="js/test.js" type="text/javascript" ></script> -->
     <script src="js/jquery-3.3.1.js" type="text/javascript" ></script>
     <script src="js/test.js" type="text/javascript" ></script>
-   
-
-    
-
-
-
-
-
-
-
- 
     <!-- 제이쿼리 연동 성공 -->
 
   
-
-    <title>순바미 개인페이지</title>
-
-    
+    <title>순바미 개인페이지</title>  
 </head>
+
+
 
 <!-- 작업시작 2018.07.23 -->
 
@@ -91,19 +82,20 @@
     </div>
     <!-- ======================================================================================================= -->
     <!-- =================================프로필 팝업창 작업 끝============================================= -->
+    <div class="clear"></div>
     
-    <!-- <h1>타이틀</h1> -->
-
+    
+    
     <!--start header_wrap -->
     <div id="header_wrap">
         <h1>No Title</h1>
-
         <div id="header">
            <img id="notitle" src="img/Notitle02.png" alt="메인로고" title="메인로고">
         </div>
     </div>
-    <!--start header_wrap -->
-
+    <div class="clear"></div>
+    
+    <!--start  gnb_wrap -->
     <div id="gnb_wrap">
         <div id="gnb">
             <div id="ul_wrap">
@@ -119,6 +111,8 @@
             </div>
         </div>
     </div>
+	<div class="clear"></div>
+
 
 <!-- *********18.07.25우측 고정바 추가************* -->
 <!-- *********18.07.25우측 고정바 추가************* -->
@@ -137,12 +131,12 @@
             </div>
         </div>
     </div>
-
-<!-- ********************** -->
-<!-- ********************** -->
-
-
     <div class="clear"></div>
+<!-- ********* 우측 고정바 추가 끝 ********* -->
+<!-- ********* 우측 고정바 추가 끝 ********* -->
+
+
+    
 
     <!-- start main_wrap -->
     <div id="main_wrap">
@@ -156,17 +150,17 @@
             <img id="main_photo" src="img/main_photo2.png" alt="photo" title="photo">
         </div>
     </div>
-    <!-- end main_wrap -->
-
-    <!-- <hr> -->
     <div class="line"></div>
+    <!-- end main_wrap -->
+  
 
 
     <!-- start section_01_wrap -->
     <!-- profile -->
     <div id="section_01_wrap">
         <div id="section_01">
-
+        
+            <!-- profile -->
             <div class="profile">
                 <h1>Profile</h1>
                 <ul>
@@ -177,7 +171,8 @@
                     <li class="profile_address">Address : 경기도 광명시 하안동 주공3단지</li>
                 </ul>
             </div>
-
+            
+    		<!-- skill -->
             <div class="skill">
                 <h1>Skill</h1>
                 <ul>
@@ -229,27 +224,30 @@
                 </ul>
             </div>
 
+
             <div class="profile_detail">
                 <p><a class="profile_detail_a" href="#"> Profile Detail > </a></p>
-            </div>
-        
+            </div>        
         </div>
     </div>
+    <div class="line"></div>
     <!-- end section_01_wrap -->
 
     
-    <div class="line"></div>
+  
 
     <!-- start section_02_wrap -->
     <!-- portfolio -->
     <div id="section_02_wrap">
         <h1>Web Portfolio</h1>
+        
         <div id="section_2">
             <div id="portfolio_area">
 
                 <i class="material-icons arrow_b" id="test"> <!--좌측화살표-->
                     arrow_back_ios
                 </i>
+        
                 <i class="material-icons arrow_f"> <!--우측화살표-->
                     arrow_forward_ios
                 </i>
@@ -295,7 +293,7 @@
                     
                     </div> <!--포트폴리오 디테일 끝-->
 
-                    <div class="clear"></div>
+                    
 
 
                     <div id="portfolio_img">
@@ -341,6 +339,8 @@
 
                     <!-- 이미지정렬 아직 작업 x -->
                     <div class="center slide phoslide">
+                           
+                           <!--  <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
@@ -352,7 +352,9 @@
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
-                            <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
+                            -->
+                           
+                           
                             <!-- <div><img class="pho-align" src="img/photoshop_work/low_file/bookcover01.jpg"><h1>북커버디자인01</h1></div>
                             <div><img class="pho-align" src="img/photoshop_work/low_file/bookcover02.jpg"><h1>북커버디자인02</h1></div>
                             <div><img class="pho-align" src="img/photoshop_work/low_file/namecard01.jpg"><h1>명함디자인01</h1></div>
@@ -615,12 +617,14 @@
    
 
 
+<!-- 2020.03.06 Slick Slide 주석처리 -->
+
 
     <!-- slickslide -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!--  -<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
    
     <!--  <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>-->
-      <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+     <!-- <!--  <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
       <script type="text/javascript">
         $(document).on('ready', function() {
           $(".vertical-center-4").slick({
@@ -750,7 +754,7 @@
             
 
         });
-    </script>
+    </script> --> -->
     <!-- 이미지 호버 -->
     <!-- <script>
         $(document).ready(function(){
@@ -780,10 +784,14 @@
         });
     </script> -->    
  
-
-    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+ 
+ 	
+ 
+ 
+	<!-- 2020.03.06 부트스틀랩 주석  -->
+    <!-- <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
-      //   180822스크롤탑 에니메이션 추가
+    //   180822스크롤탑 에니메이션 추가
 
     
     // var headerheight = $("#header_wrap").outerHeight();
@@ -799,7 +807,7 @@
         e.preventDefault();
         });
     });
-    </script>
+    </script> -->
 
 </body>
 </html>

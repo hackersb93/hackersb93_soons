@@ -431,17 +431,23 @@ a{
 /* photo */
 /* ==================start section03 Style ======================= */
 /* ==================start section03 Style ======================= */
-#section_03_wrap{
-    overflow: hidden;
 
+
+#section_03{
+	width:100px;
+	height:100px;	/* position: fix; */
+	bakcground-color:balck;
+	
 }
-#photoshop_area{
+
+
+/* #photoshop_area{
     width:1240px;
     height:800px;
-    /* width:800px;
-    height:600px; */
-    /* box-sizing: border-box; */
-    /* border: 1px solid blue; */
+    width:800px;
+    height:600px;
+    box-sizing: border-box;
+    border: 1px solid blue;
     margin: 0 auto;
 
     background: red;
@@ -459,23 +465,23 @@ a{
     left:10px;
     float:left;
     overflow: hidden;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 #photoshop_area i:nth-child(2){
-    /* border:1px solid black; */
+    border:1px solid black;
     position: relative; 
     top:200px;
     overflow: hidden;
     float:right;
     right:10px;
-    /* right:100px;
+    right:100px;
     left:1240px;
     border: 1px solid black;
     
-    float:right;  */
+    float:right; 
 }
 
-/* #img01 img{
+#img01 img{
     width:20%;
     height:20%;
     float: left;
@@ -484,13 +490,13 @@ a{
     width:20%;
     height:20%;
     float:left;
-} */
-/* --------------------------------------- */
+}
+---------------------------------------
 #pho_img_wrap, #pho_img_wrap02{
     width:923px;
     height:450px;
-    /* box-sizing: border-box; */
-    /* border:1px solid red; */
+    box-sizing: border-box;
+    border:1px solid red;
 
     
     margin:0 auto;
@@ -499,7 +505,7 @@ a{
 
 
 #photoshop_img01 img, #photoshop_img05 img{
-    /* padding-left: 100px; */
+    padding-left: 100px;
     float: left;
     
 }
@@ -507,18 +513,18 @@ a{
     float: left;
     margin-left:10px;
 } 
-/* #img03 img{
-    /* float: left; */
-/* } */
+#img03 img{
+    /* float: left;
+}
 #photoshop_img03 img, #photoshop_img07 img{
     margin-left:10px;
     margin-bottom:50px;
 }
 #photoshop_img04 img, #photoshop_img08 img{
-    /* float: left; */
+    float: left;
     margin-left:10px;
 
-} 
+}  */
 
 
 
@@ -534,7 +540,7 @@ a{
 /* ==================start section04 Style ======================= */
 #section_04_wrap{
     height: 800px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 #illustrator_area{
@@ -542,10 +548,13 @@ a{
     height:800px;
     /* box-sizing: border-box; */
     /* border: 1px solid blue; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
-
+#illustrator_area img{
+	width:50%;
+	height:50%;
+}
 
 #illustrator_area i{
     font-size: 50px;
@@ -958,7 +967,7 @@ a{
     /* background-color: #111111; */
 }
 
-#section_04_wrap>p{
+#section_04_wrap p{
     width:300px;
     height:70px;
 
@@ -970,7 +979,7 @@ a{
     color:#111;
 
     font-size:1.4em;
-    /* background-color: #111111; */
+    /* background-color: #111111ar*/
 }
 
 /* .footer_main_menu>li:nth-child(1),.footer_main_menu>li:nth-child(2),.footer_main_menu>li:nth-child(3){
@@ -1034,8 +1043,8 @@ a{
 } */
 
 .illslide div img{
-    line-height: auto;
-    vertical-align: center;
+ /*    line-height: auto; */
+   /*  vertical-align: center; */
     /* margin-top:30px; */
 }
 .ill_short{
@@ -1044,8 +1053,8 @@ a{
 
 .ill-align{
     /* vertical-align: center; */
-    margin-top:40%;
-    position: relative;
+  /*   margin-top:40%; */
+ /*    position: relative; */
     /* top:40%; */
 }
 
@@ -1056,8 +1065,8 @@ a{
 }
 
 .ill-align01{
-    position: relative;
-    margin-top:30%;
+ /*    position: relative; */
+/*     margin-top:30%; */
 
     /* margin-top:-30%; */
 }
