@@ -79,12 +79,12 @@ a{
 }
 #section_03_wrap{
     width:100%;
-    height:800px;
+    height:1000px;
     background-color: #faf0eb;
 }
 #section_04_wrap{
     width:100%;
-    height:800px;
+    height:1000px;
     background-color: #eeeeee;
 }
 
@@ -434,13 +434,49 @@ a{
 
 
 #section_03{
-	width:100px;
-	height:100px;	/* position: fix; */
-	bakcground-color:balck;
 	
 }
 
+#photoshop_area{
+	width:1280px;
+	height:800px;
+	box-sizing: border-box;
+    border: 1px solid blue;
+	margin:0 auto;
+	
+	overflow: hidden;
+}
 
+.phoslide{
+	width:100%;
+	hetight:100%;
+    
+	background : black;
+	margin: 0 atuo;
+	
+	
+}
+
+.phoslide div{
+	text-align: center;
+	
+	
+	
+	margin:0 auto; 
+	/* margin-left: auto;
+	margin-right: auto;
+	margin-top: auto; */
+		/* display:block; */
+	
+}
+/* 
+.phoslide div img{
+ margin-left: auto;
+	margin-right: auto;
+	margin-top: auto; 
+		display:block; 
+	
+} */
 /* #photoshop_area{
     width:1240px;
     height:800px;

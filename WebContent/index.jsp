@@ -339,7 +339,9 @@
 
                     <!-- 이미지정렬 아직 작업 x -->
                     <div class="center slide phoslide">
-                           
+                       <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
+                       <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
+                      
                            <!--  <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
                             <div><img class="pho-align" src="img/test.png"><h1>TEST파일입니다</h1></div>
@@ -418,7 +420,9 @@
                 
                 
                     <!-- 이미지정렬 작업 50% 진행중 -->
-                    <div class="center slide illslide">
+                   
+                   	<!--  2020.03.07임시주 -->
+                  <!--   <div class="center slide illslide">
                         <div><img class="ill_short" src="img/ill_work/low_file/bag01.jpg"><h1>가방디자인01</h1></div>
                         <div><img class="ill-align" src="img/ill_work/low_file/bag02.jpg"><h1>가방디자인01</h1></div>
                         <div><img class="ill-align" src="img/ill_work/low_file/BI01.jpg"><h1>BI디자인01</h1></div>
@@ -434,7 +438,7 @@
                         <div><img class="ill-align" src="img/ill_work/low_file/bookcover01.jpg"><h1>북커버디자인01</h1></div>
                         <div><img class="ill-align" src="img/ill_work/low_file/bookcover02.jpg"><h1>북커버디자인02</h1></div>
 
-                    </div>
+                    </div> -->
             
 
 
